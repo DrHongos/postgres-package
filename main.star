@@ -6,7 +6,7 @@ PG_DRIVER = "pgsql"
 
 CONFIG_FILE_MOUNT_DIRPATH = "/config"
 SEED_FILE_MOUNT_PATH = "/docker-entrypoint-initdb.d"
-DATA_DIRECTORY_PATH = "/data/"
+DATA_DIRECTORY_PATH = "/data"
 
 CONFIG_FILENAME = "postgresql.conf"  # Expected to be in the artifact
 
